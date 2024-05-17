@@ -36,8 +36,8 @@ st.write('date', f'{date} {time}')
 
 
 
-pickup_log = st.number_input('Specify pickup LOGITUDE?')
-pickup_lat =st.number_input('Specify pickup LATITUDE?')
+pickup_log = st.number_input('Specify pickup LOGITUDE?', 3.4444)
+pickup_lat =st.number_input('Specify pickup LATITUDE?', 43344566.23456)
 dropoff_lon= st.number_input('Specify dropoff LONGITUTE?')
 dropoff_lat=st.number_input('Specify dropoff LATITUDE?')
 passenger_count=st.number_input('How many passengers are travelling?')
